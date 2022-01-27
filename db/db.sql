@@ -26,3 +26,28 @@ INSERT INTO `contents` (`name`, `email`, `text`) VALUES
 ('Puchu', 'puchu@assemblerschool.com', 'I <3 you Puchu'),
 ('Merli', 'merli@assemblerschool.com', 'Merli we love you'),
 ('Pau', 'pau2@assemblerschool.com', 'new emaill jeje JO!');
+
+
+-- -------------------------------------------------------------------------------------------
+
+--
+-- Tables creation
+--
+
+CREATE TABLE `employees` (
+  `id` int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  `name` varchar(30) DEFAULT NULL,
+  `email` varchar(50) UNIQUE,
+  `text` TEXT DEFAULT NULL
+
+);
+
+
+--
+-- Insert data for "content" table
+--
+
+INSERT INTO `contents` (`name`, `email`, `text`) VALUES
+('Puchu', 'puchu@assemblerschool.com', 'I <3 you Puchu'),
+('Merli', 'merli@assemblerschool.com', 'Merli we love you'),
+('Pau', 'pau2@assemblerschool.com', 'new emaill jeje JO!');

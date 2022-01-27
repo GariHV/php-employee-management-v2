@@ -2,8 +2,15 @@
 
 class Content
 {
-    public $id;
-    public $name;
-    public $email;
-    public $text;
+    public $id ;
+    public $name ;
+    public $last_name ;
+    public $email ;
+    public $gender_id ;
+    public $age ;
+    public $phone_number;
+    public $city ;
+    public $street_address ;
+    public $state ;
+    public $postal_code;
 }

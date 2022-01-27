@@ -28,12 +28,12 @@
                 <input type="text" name="name" value="<?php echo $this->content->name; ?>" required>
             </p>
             <p>
-                <label for="email">Email</label><br>
-                <input type="email" name="email" value="<?php echo $this->content->email; ?>" required>
+                <label for="last_name">Last Name</label><br>
+                <input type="last_name" name="last_name" value="<?php echo $this->content->last_name; ?>" required>
             </p>
             <p>
-                <label for="text">Text</label><br>
-                <textarea name="text" cols="40" rows="5" required><?php echo $this->content->text; ?></textarea>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" value="<?php echo $this->content->email; ?>" required>
             </p>
             <p>
                 <input type="submit" value="Update">
