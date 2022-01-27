@@ -1,5 +1,5 @@
 <?php
-define('HOST', 'docker-mysql');
+define('HOST', 'localhost');
 define('DB', 'mvc_advanced');
 define('USER', 'root');
 define('PASSWORD', '');

@@ -1,17 +1,16 @@
- <!-- meta -->
+<!-- meta -->
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Jquery -->
-<script src="./../node_modules/jquery/dist/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- Bootstrap -->
-<link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
-<script src="./../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+<<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <!-- FontAwesome -->
 <script src="https://kit.fontawesome.com/63f29c9463.js" crossorigin="anonymous"></script>
 <!-- My styles/Scripts -->
-<link rel="stylesheet" href="./../assets/css/main.css">
-<script src="./../assets/js/checkPath.js" defer></script>
+<link rel="stylesheet" href=" <?= CSS.'main.css'; ?>">
+<script src=" <?= JS.'checkPath.js'; ?>" defer></script>
 
 <!-- HEADER VISUAL -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
