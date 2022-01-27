@@ -21,8 +21,8 @@
         <table width="100%" border="1">
             <thead>
                 <th>Name</th>
+                <th>Last Name</th>
                 <th>Email</th>
-                <th>Text</th>
             </thead>
             <tbody id="tbody-contents">
                 <?php
@@ -33,8 +33,8 @@
                 ?>
                     <tr id="<?php echo 'row-' . $content->id; ?>">
                         <td><?php echo $content->name; ?></td>
+                        <td><?php echo $content->last_name; ?></td>
                         <td><?php echo $content->email; ?></td>
-                        <td><?php echo $content->text; ?></td>
                         <td><a href="<?php echo BASE_URL . 'content/consult/' . $content->id; ?>">Detail</a></td>
                         <td><a href="<?php echo BASE_URL . 'content/delete/' . $content->id; ?>">Delete</a></td>
                         <!-- <td><button class="btnDelete" data-content_id="<?php echo  $content->id; ?>">Delete</button></td> -->

@@ -1,5 +1,4 @@
 <?php
-echo 'esto va funcionar? ';
 
 require_once("libs/Database.php");
 require_once("config/executionFlow.php");

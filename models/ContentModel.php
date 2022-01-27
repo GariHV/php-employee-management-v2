@@ -18,14 +18,21 @@ class ContentModel extends Model
         $items = [];
 
         try {
-            $query = $this->db->connect()->query("SELECT * FROM contents;");
+            $query = $this->db->connect()->query("SELECT * FROM employees;");
             while ($row = $query->fetch()) {
                 $item = new Content();
 
-                $item->id = $row['id'];
-                $item->name = $row['name'];
-                $item->email = $row['email'];
-                $item->text = $row['text'];
+                    $item->id = $row['id'];
+                    $item->name = $row['name'];
+                    $item->last_name = $row['last_name'];
+                    $item->email= $row['email'] ;
+                    $item->gender_id= $row['gender_id'] ;
+                    $item->age= $row['age'] ;
+                    $item->phone_number = $row['phone_number'];
+                    $item->city = $row['city'];
+                    $item->street_address = $row['street_address'];
+                    $item->state= $row['state'] ;
+                    $item->postal_code = $row['postal_code'];
 
                 array_push($items, $item);
             }
