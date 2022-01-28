@@ -1,6 +1,7 @@
 <?php
 
 include_once ENTITIES . '/Content.php';
+include_once "./libs/Model.php";
 
 class ContentModel extends Model
 {
@@ -9,8 +10,8 @@ class ContentModel extends Model
         //This calls to the constructor of the class Model is extending
         parent::__construct();
 
-        if (EXECUTION_FLOW)
-            echo '<p>Content model</p>';
+/*         if (EXECUTION_FLOW)
+            echo '<p>Content model</p>'; */
     }
 
     public function get()
@@ -36,8 +37,7 @@ class ContentModel extends Model
 
                 array_push($items, $item);
             }
-
-            return $items;
+                return $items;
         } catch (PDOException $e) {
             echo $e;
         }

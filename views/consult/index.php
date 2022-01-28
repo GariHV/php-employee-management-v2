@@ -10,8 +10,8 @@
 
 <body>
     <?php
-    if (EXECUTION_FLOW)
-        echo "<p>Consult view</p>";
+/*     if (EXECUTION_FLOW)
+        echo "<p>Consult view</p>"; */
 
     require VIEWS . '/header.php';
     ?>

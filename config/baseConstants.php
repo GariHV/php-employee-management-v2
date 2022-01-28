@@ -5,8 +5,8 @@ $documentRoot = getcwd();
 //BASE PATH -> FOR REFERENCE FILES
 define("BASE_PATH", $documentRoot);
 
-if (EXECUTION_FLOW)
-    echo '<p>BASE_PATH -> ' . BASE_PATH . '</p>';
+/* if (EXECUTION_FLOW)
+    echo '<p>BASE_PATH -> ' . BASE_PATH . '</p>'; */
 
 //BASE URL -> FOR LINK CSS - This is the old impentation
 // $uri = $_SERVER['REQUEST_URI'];
@@ -36,6 +36,6 @@ define('BASE_URL', preg_replace("/\/$/", '', PROTOCOL . DOMAIN . str_replace(arr
 //     }
 //     return $uri;
 // }
-
+/* 
 if (EXECUTION_FLOW)
-    echo '<p>BASE_URL -> ' . BASE_URL . '</p>';
+    echo '<p>BASE_URL -> ' . BASE_URL . '</p>'; */

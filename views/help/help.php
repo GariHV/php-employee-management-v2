@@ -8,8 +8,8 @@
 </head>
 <body>
 <?php
-    if(EXECUTION_FLOW)
-    echo "<p>Help view</p>";
+/*     if(EXECUTION_FLOW)
+    echo "<p>Help view</p>"; */
 
     require VIEWS . '/header.php';
     ?>

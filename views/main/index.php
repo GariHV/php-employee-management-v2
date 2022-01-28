@@ -1,6 +1,6 @@
     <?php
-    if (EXECUTION_FLOW)
-        echo "<p>Main view</p>";
+/*     if (EXECUTION_FLOW)
+        echo "<p>Main view</p>"; */
 
     require VIEWS . '/header.php';
     ?>
@@ -10,8 +10,8 @@
     <div class="msgContainer">
 
     </div>
-
-    <div id="jsGrid">
+    
+    <div id="jsGrid" onload("callGrid()")>
 
     </div>
     <?php

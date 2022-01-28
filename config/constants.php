@@ -1,4 +1,5 @@
 <?php
+require_once "./config/baseConstants.php";
 //LIBS
 define("LIBS", BASE_PATH . '/libs');
 

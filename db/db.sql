@@ -2,7 +2,9 @@
 --
 
 -- --------------------------------------------------------
-
+DROP DATABASE IF EXISTS mvc_advanced;
+CREATE DATABASE mvc_advanced;
+USE mvc_advanced;
 --
 -- Estrutura da tabela `employees`
 --

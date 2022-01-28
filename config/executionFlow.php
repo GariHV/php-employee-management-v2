@@ -1,6 +1,6 @@
 <?php
 
-//Set TRUE if you want to show the execution flow anyways
+/* //Set TRUE if you want to show the execution flow anyways
 $manualMode = true;
 
 //SHOW EXECUTION FLOW
@@ -14,5 +14,5 @@ if($manualMode){
         $executionFlow = false;
     }
 }
-define("EXECUTION_FLOW", $executionFlow);
+define("EXECUTION_FLOW", $executionFlow); */
 ?>

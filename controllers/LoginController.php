@@ -5,8 +5,8 @@ class LoginController extends Controller{
 
     function __construct()
     {
-        if (EXECUTION_FLOW)
-            echo "<p>Login controller</p>";
+/*         if (EXECUTION_FLOW)
+            echo "<p>Login controller</p>"; */
 
         parent::__construct();
     }

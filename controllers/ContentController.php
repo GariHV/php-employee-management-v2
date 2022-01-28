@@ -4,8 +4,8 @@ class ContentController extends Controller
 {
     function __construct()
     {
-        if (EXECUTION_FLOW)
-            echo "<p>Content controller</p>";
+/*         if (EXECUTION_FLOW)
+            echo "<p>Content controller</p>"; */
 
         parent::__construct();
 

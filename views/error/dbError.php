@@ -1,6 +1,6 @@
 <?php 
-    if(EXECUTION_FLOW)
-    echo "<p>Database Error view</p>";
+/*     if(EXECUTION_FLOW)
+    echo "<p>Database Error view</p>"; */
 
     require VIEWS . '/header.php';
     ?>
